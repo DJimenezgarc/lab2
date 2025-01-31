@@ -305,15 +305,15 @@ void render()
 
 
 //	 Rect r;
-    glClear(GL_COLOR_BUFFER_BIT);
+    //glClear(GL_COLOR_BUFFER_BIT);
     //
     r.bot = gl.yres - 20;
     r.left = 10;
     r.center = 0;
     ggprint8b(&r, 16, 0x00ff0000, "3350 - Lab 2");
     ggprint8b(&r, 16, 0x00ff0000, "esc to escape");
-    ggprint8b(&r, 16, 0x00ffff00, "+ speed: %i");
-    ggprint8b(&r, 16, 0x00ffff00, "- slow: %i");
+    ggprint8b(&r, 16, 0x00ffff00, "+ speed");
+    ggprint8b(&r, 16, 0x00ffff00, "- slow");
 
 }
 
